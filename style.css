@@ -1,0 +1,614 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url(./images/Background.png);
+    background-size: cover;
+}
+
+/* =======================NAVIGATION SECTION======================= */
+
+li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.contact,
+.join {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.contact>a,.join>a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 30px;
+}
+
+.join {
+    border: none;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    padding: 11px 30px;
+}
+
+
+.nav-link {
+    padding-top: 20px;
+}
+
+.nav-link2 {
+    padding-top: 30px;
+}
+
+/* ==================HERO SECTION========================= */
+
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+
+.hero1 h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+}
+
+.hero1 p {
+    color: white;
+}
+
+.hero1 button {
+    border: none;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    padding: 11px 30px;
+    border-radius: 20px;
+    
+}
+.hero-button a{
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.dive {
+    background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.vr {
+    background: linear-gradient(269deg, #C0B7E8 -3.72%, #8176AF 82.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-footer {
+    display: flex;
+    padding-top: 80px;
+}
+
+.hero-img {
+    margin-left: 50px;
+}
+
+.hero2 img {
+    width: 100%;
+}
+
+
+
+/* 
+CSS SYNTAX
+
+Selector{
+    property: value;
+    font-size: 
+} 
+
+*/
+
+
+/* =========CONTACT SECTION============ */
+
+.contact-section {
+    margin-top: 70px;
+}
+
+.location {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.location-details {
+    color: white;
+    padding-left: 20px;
+}
+
+.location-details p {
+    font-size: 12px;
+    margin-top: -10px;
+
+}
+
+
+.location-img {
+    padding-top: 12px;
+}
+
+.location-img img {
+    width: 50px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+    border-radius: 90px;
+    padding: 30px 60px;
+}
+
+.call-us {
+    border-left: 1px solid rgba(192, 183, 232, 0.33);
+    padding-left: 40px;
+}
+
+.message-us {
+    border-left: 1px solid rgba(192, 183, 232, 0.33);
+
+    padding-left: 40px;
+}
+
+.call-img {
+    padding-top: 25px;
+}
+
+.call-img img {
+    width: 40px;
+}
+
+.message-img {
+    padding-top: 15px;
+}
+
+/* ===================INTRODUCTION SECTION================= */
+
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    margin-top: 70px;
+    padding: 0px 70px;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.introduction-heading {
+    width: 50%;
+    display: flex;
+}
+
+.introduction-heading img {
+    width: 200px;
+}
+
+.introduction-content {
+    width: 50%;
+}
+
+.introduction-content p {
+    font-weight: lighter;
+}
+
+
+/* ======================== ABOUT SECTION =============== */
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding: 0px 70px;
+}
+
+.about-img img {
+    width: 400px;
+}
+
+.about-info {
+    width: 50%;
+    color: white;
+    margin-top: 20px;
+}
+
+.about-info p {
+    font-weight: lighter;
+}
+
+.get-in-touch a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+.get-in-touch {
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    padding: 12px 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+/* ================WHY BUILD WITH HYDRA- SECTION============= */
+
+.why-build {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    margin-top: 70px;
+    padding: 0px 70px;
+}
+
+
+/* ==========ACTIVITY SECTION================== */
+
+.activity-section {
+    margin: 40px 0px;
+    /* padding: 0px 60px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.simulation {
+    width: 240px;
+    height: 450px;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    padding: 20px 20px;
+    margin: 10px;
+}
+
+.simulation hr {
+    width: 170px;
+}
+
+.simulation p {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.simulation button {
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    padding: 12px 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+.simulation button>a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.activity-text {
+    width: 100%;
+    background-color: purple;
+    margin: auto;
+}
+
+
+/* ===============TECHNOLOGIES SECTION================= */
+.technology-section {
+    padding: 0px 40px;
+    margin-bottom: 30px;
+}
+
+
+.technology {
+    background: linear-gradient(rgba(0.8, 2, 1, 0.5), rgba(0, 0, 0, 0.5)), url(./images/0x0.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 200px;
+    text-align: center;
+}
+
+.technology h1 {
+    padding-top: 100px;
+    color: white;
+}
+
+.icon {
+    margin-top: 90px;
+}
+
+/* ================== TECH SECTION ============= */
+
+.tech {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.tech div {
+    margin: 0px 50px;
+}
+
+/* ===========HOW WE BUILD SECTION========== */
+
+.how-we-build {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    margin-top: 240px;
+    padding: 0px 70px;
+}
+
+
+/* ============= HYDRA SECTION========== */
+
+.hydra-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 40px;
+    margin-top: 120px;
+}
+
+.section-container {
+    width: 250px;
+    padding: 20px 5px;
+    text-align: center;
+}
+
+
+.content {
+    display: flex;
+    color: white;
+    text-align: left;
+}
+
+/* ==================FORM SECTION============= */
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.main-form {
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    width: 80%;
+    height: 600px;
+    padding: 20px 0px 150px 0px;
+}
+
+.form-title{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    color: white;
+}
+
+.form-title hr{
+   border: 0;
+   height: 1px;
+   background-image: linear-gradient(270deg, #343045 0%, #C0B7E8 34.9%, #8176AF 68.75%, #343045 100%);
+   width: 280px;
+}
+
+.form-title h2{
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+
+form{
+    width: 100%;
+    margin: auto;
+}
+
+.input-name-field{
+    display: flex;
+    justify-content: center;
+}
+
+.input-name input{
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    background: transparent;
+    width: 350px;
+    padding: 15px 20px;
+}
+.input-name{
+    margin-right: 10px;
+}
+
+.input-subject input{
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    background: transparent;
+    width: 750px;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+.input-subject{
+   display: flex;
+   justify-content: center;
+}
+
+.message-section{
+    display: flex;
+    justify-content: center;
+}
+
+.message-section textarea{
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    background: transparent;
+    width: 750px;
+    padding: 15px 25px;
+    margin-top: 20px;
+    color: white;
+}
+
+.input-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.input-button input{
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    padding: 12px 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+ 
+/* ===========================FOOTER SECTION ====================== */
+
+footer{
+    padding-bottom: 50px;
+}
+
+.footer-content{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+footer li{
+    display: block;
+}
+
+.footer-links1, .footer-links2, .social-logo{
+    border: 0;
+    border-left: 6px solid;
+    border-image: linear-gradient( #343045 0.47%, #343045 0.47%, #C0B7E8 35.21%, #8176AF 68.91%, #343045 99.5%);
+    border-image-slice: 1;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.footer-links1 li{
+   padding-top: 20px;
+}
+.footer-links2 li{
+   padding-top: 20px;
+}
+
+.social-logo{
+    color: white;
+}
+
+.footer-button{
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    padding: 12px 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer-button a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    margin-top: 30px;
+}
+
+
+.social-media img{
+    width: 30px;
+    margin: 10px;
+}
+
+.footer-links1 ul>li>a  {
+    font-size: 18px;
+}
+
+.footer-links2 ul>li>a  {
+    font-size: 18px;
+}
+
+.social-logo h6{
+    font-size: 18px;
+}
+
+footer hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(270deg, #343045 0%, #C0B7E8 34.9%, #8176AF 68.75%, #343045 100%);
+    width: 90%;
+    margin-top: 70px;
+}
+
+footer h5{
+    text-align: center;
+    color: white;
+}
